@@ -6,8 +6,7 @@ import { Platform } from 'react-native';
 
 // Android emulator uses 10.0.2.2, iOS sim & web use localhost
 const getBaseUrl = (): string => {
-  if (Platform.OS === 'android') return 'http://10.0.2.2:8000';
-  return 'http://localhost:8000';
+  return 'https://ustaadji-backend-1079919040727.europe-west1.run.app';
 };
 
 const BASE_URL = getBaseUrl();
