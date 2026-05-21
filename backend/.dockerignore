@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.json
+# Do not ignore ustaadji.db as we want to ship the seed data with the container for the MVP
